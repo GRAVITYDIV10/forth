@@ -4,7 +4,7 @@ project(forth LANGUAGES C)
 
 add_executable(forth main.c)
 
-set("CMAKE_C_FLAGS" "-O2 -Wno-int-conversion -foptimize-sibling-calls" CACHE "STRING" "" FORCE)
+set("CMAKE_C_FLAGS" "-O2 -Wno-int-conversion -foptimize-sibling-calls -fstack-usage" CACHE "STRING" "" FORCE)
 
 include(GNUInstallDirs)
 install(TARGETS forth
