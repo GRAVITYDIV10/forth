@@ -2,6 +2,8 @@
 
 simple itc forth
 
+![demo](demo.gif)
+
 # TCO
 
 c compiler must enable tail call optimiztion.
@@ -48,4 +50,5 @@ false iftest $
 
 1. multitask word
 2. uefi support
-3. decimal number convert support
+3. graphic support (linuxfb & uefifb)
+4. decimal number convert support
