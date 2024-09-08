@@ -35,7 +35,7 @@ false iftest $
 # use loop
 
 ```
-: stars if begin star 1- dup 0= until then drop ;
+: stars dup if begin star 1- dup 0= until then drop ;
 ```
 
 ```
