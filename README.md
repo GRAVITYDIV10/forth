@@ -49,6 +49,5 @@ false iftest $
 # todo
 
 1. multitask word
-2. uefi support
-3. graphic support (linuxfb & uefifb)
-4. decimal number convert support
+2. graphic support (linuxfb)
+3. decimal number convert support
